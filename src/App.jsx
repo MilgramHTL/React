@@ -17,6 +17,9 @@ function App() {
       <div>
         <List items={["Coffee", "Tea", "Beer"]} />
       </div>
+      <div>
+        <Button />
+      </div>
       test
     </>
   )

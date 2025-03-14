@@ -5,7 +5,7 @@ export default function List({items}) {
       <div className="w-50 h-max text-white items-center">
         <ul>
             {items.map((item, index) => (
-                <li key={index} className="h-10 pl-3 mb-1 bg-cyan-500 ">{item}</li>
+                <li key={index} className="h-10 pl-3 mb-1 bg-cyan-500 hover:bg-red-500">{item}</li>
             ))}
         </ul>
       </div>

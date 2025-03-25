@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 //import Exercise02 from './components/pages/Exercise02'
 import PeopleContainer from "./components/PeopleContainer";
-import Card from "./components/CardE03";
+
 function App() {
   const [count, setCount] = useState(0);
 

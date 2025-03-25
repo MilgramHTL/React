@@ -13,15 +13,17 @@ export default function PeopleContainer() {
   }, []);
   return (
     <div>
-      <h1>People</h1>
-      <div>
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {people.map((element) => {
-          return <div className="w-40">Card({
-            name: element.name,
-            jobtitle: element.jobtitle,
-            picture: element.avatar,
-          });
-          </div>
+          return (
+            <div>
+              <Card
+                name={element.name}
+                jobtitle={element.jobtitle}
+                picture={element.avatar}
+              />
+            </div>
+          );
         })}
         ;
       </div>

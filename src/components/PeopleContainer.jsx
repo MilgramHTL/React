@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./CardE03";
+import Card from "./DemoCard";
 import { useState } from "react";
 import { useEffect } from "react";
 

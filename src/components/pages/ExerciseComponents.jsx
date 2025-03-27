@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "../CardE02";
+import Card from "../W3schoolCard";
 import List from "../List";
 import Button from "../Button";
 
-export default function Exercise02() {
+export default function ExerciseComponents() {
   return (
     <div>
       <h1 className="bg-blue-500">Components</h1>

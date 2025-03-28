@@ -4,6 +4,11 @@ import List from "../List";
 import Button from "../Button";
 import { Link } from "react-router";
 export default function ExerciseComponents() {
+  const person = {
+    name: "John Doe",
+    jobtitle: "Software Engineer",
+    description: "I am a software engineer",
+  };
   return (
     <div>
       <h1 className="bg-blue-500">Components</h1>
@@ -23,6 +28,7 @@ export default function ExerciseComponents() {
       </div>
       <Link
         to="/exDemo"
+        state={{ person: person, title: "Test" }}
         className="bg-green-400 rounded-2xl hover:cursor-pointer hover:bg-red-300"
       >
         DemoCards

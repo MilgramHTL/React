@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../W3schoolCard";
+import Card from "../WWWSchoolCard";
 import List from "../List";
 import Button from "../Button";
 import { Link } from "react-router";

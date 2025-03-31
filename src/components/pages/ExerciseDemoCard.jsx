@@ -9,7 +9,7 @@ export default function ExerciseDemoCard() {
   console.log(location);
   return (
     <>
-      <div></div>
+      <div className="font-bytesized">Font Change</div>
       <PeopleContainer />;
     </>
   );

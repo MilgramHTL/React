@@ -1,9 +1,9 @@
+import FootballContainer from "./components/FootballAPI Import/FootballContainer";
 function App() {
   return (
     <>
       <div>
-        <h1>Hello</h1>
-        <p>you</p>
+        <FootballContainer />
       </div>
     </>
   );
